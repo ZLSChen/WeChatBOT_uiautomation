@@ -117,7 +117,7 @@ while True:
                 # 发送消息 回车键
                 wx.SendKeys('{Enter}', waitTime=1)
             else:
-                print("未找到联系人")
+                print("no")
             # 重置状态
             wx.TextControl(SubName=result[:3]).RightClick()
     except Exception as e:
